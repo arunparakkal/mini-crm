@@ -1,11 +1,11 @@
 import axios from 'axios';
 
-const BASE_URL = process.env.NODE_ENV === 'production'
-  ? 'https://mini-crm-backend-ij6l.onrender.com/api'
-  : '/api';
+// const BASE_URL = process.env.NODE_ENV === 'production'
+//   ? 'https://mini-crm-backend-ij6l.onrender.com/api'
+//   : '/api';
 
 const api = axios.create({ 
-  baseURL: BASE_URL
+  baseURL: 'https://mini-crm-backend-ij6l.onrender.com/api'
 });
 
 api.interceptors.request.use((config) => {

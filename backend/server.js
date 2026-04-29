@@ -12,7 +12,8 @@ const app = express();
 app.use(cors({
   origin: [
     'http://localhost:3000',
-    'https://mini-crm-backendd.netlify.app/' 
+    'https://mini-crm-backendd.netlify.app'
+    
   ],
   credentials: true
 }));
