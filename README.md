@@ -8,7 +8,6 @@ A complete CRM system with Authentication, Leads, Companies, Tasks, and Dashboar
  -----
 | email | salesrep1@gmail.com
 | passwird | salesRep123
-email: 
 ## 🏗️ Tech Stack
 
 | Layer | Tech |
