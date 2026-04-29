@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({ 
-  baseURL: process.env.REACT_APP_API_URL || '/api' 
+  baseURL: 'https://mini-crm-backend-ij6l.onrender.com/api' 
 });
 
 api.interceptors.request.use((config) => {
