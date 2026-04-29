@@ -9,7 +9,13 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
+app.use(cors({
+  origin: [
+    'http://localhost:3000',
+    'https://mini-crm-backendd.netlify.app/' 
+  ],
+  credentials: true
+}));
 app.use(express.json());
 
 
